@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4</title>
+</head>
+<body>
+     <fieldset>
+        
+    <div class="form-container">
+        <h1 align="center">Hotel Room Booking Form</h1>
+<br><br>
+        <form action="submit_booking.php" align="center" >
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+<br><br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+<br><br>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+<br><br>
+            <div class="form-group">
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin">
+            </div>
+<br><br>
+            <div class="form-group">
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout">
+            </div>
+<br><br>
+            <div class="form-group">
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type">
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+<br><br>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1">
+            </div>
+<br><br>
+            <div class="textarea-group">
+                <label for="requests">Special Requests:</label>
+                <br>
+                <textarea id="requests" name="requests"></textarea>
+            </div>
+<br><br>
+            <div class="button-group">
+                <button type="submit">Book Now</button>
+                <button type="reset">Reset Form</button>
+            </div>
+        </form>
+    </div>
+</fieldset>
+</body>
+</html>
